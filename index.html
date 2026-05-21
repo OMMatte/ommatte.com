@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mathias Lindblom</title>
+  <meta name="description" content="Side projects by Mathias Lindblom — achtungonline and trevelur." />
+  <meta property="og:title" content="Mathias Lindblom" />
+  <meta property="og:description" content="Side projects by Mathias Lindblom." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ommatte.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+
+    <header class="intro">
+      <h1>Mathias Lindblom</h1>
+      <p class="intro__bio">Software engineer. Primarily a Frontend Developer, but Full Stack when LinkedIn recruiters ask.</p>
+      <nav class="intro__links" aria-label="Profile links">
+        <a href="https://github.com/OMMatte" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/mathias-lindblom-a31b4867" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:ommatte@gmail.com">ommatte@gmail.com</a>
+      </nav>
+    </header>
+
+    <section class="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <p>Coding is supposed to be fun, and as long as you enjoy what you do, others will enjoy what you create. I feel drawn towards Frontend because I enjoy the variation of solving a complex programming task one day and giving up on fixing some CSS pixel after one week. I'm a social developer who enjoys coding as much as I like spending time with people. I think the best code is the one you write together.</p>
+      <p>Believe it or not, but these projects were actually done before the age of AI.</p>
+    </section>
+
+    <section class="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+
+      <article class="project">
+        <a class="project__media" href="https://achtungonline.com" target="_blank" rel="noopener" aria-label="Open achtungonline.com">
+          <img src="assets/achtungonline.png" alt="" />
+        </a>
+        <div class="project__body">
+          <h3><a href="https://achtungonline.com" target="_blank" rel="noopener">achtungonline</a></h3>
+          <p>A browser remake of the classic Achtung Die Kurve. Steer a growing curve, dodge other players' trails, and survive longer than everyone else. Built from scratch with a custom lobby and game server for real-time multiplayer.</p>
+          <div class="project__links">
+            <a class="project__cta" href="https://achtungonline.com" target="_blank" rel="noopener">
+              achtungonline.com <span class="arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="project__cta project__cta--muted" href="https://github.com/achtungonline" target="_blank" rel="noopener">
+              Source <span class="arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project">
+        <a class="project__media" href="https://trevelur.com" target="_blank" rel="noopener" aria-label="Open trevelur.com">
+          <img src="assets/trevelur.png" alt="" />
+        </a>
+        <div class="project__body">
+          <h3><a href="https://trevelur.com" target="_blank" rel="noopener">trevelur</a></h3>
+          <p>Find the best time to travel anywhere on the planet. Browse climate, weather, visa and vaccine information for cities around the world through an interactive map.</p>
+          <div class="project__links">
+            <a class="project__cta" href="https://trevelur.com" target="_blank" rel="noopener">
+              trevelur.com <span class="arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Mathias Lindblom</p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
